@@ -11,7 +11,13 @@ class BookDescriptionTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //TODO: Show us your Flutter skills!
-    return Container(height: 300, color: Colors.red);
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(
+        book.description,
+        style: Theme.of(context).textTheme.bodyText2
+        .copyWith(letterSpacing: 0.25, height: 1.7),
+      ),
+    );
   }
 }
