@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skeleton_app/models/book_review.dart';
-import 'package:skeleton_app/widgets/book_detail/book_detail_rating.dart';
+import 'package:skeleton_app/widgets/detail_tabs/book_review_rating.dart';
 
 class BookReviewItemWidget extends StatelessWidget {
   final BookReview bookReview;
@@ -15,11 +15,7 @@ class BookReviewItemWidget extends StatelessWidget {
         Text(bookReview.title, 
           style: Theme.of(context).textTheme.subtitle1),
         SizedBox(height: 10),
-        Container( // ! Fix this (stars should be bigger + alignment)
-          alignment: Alignment.centerLeft,
-          width: MediaQuery.of(context).size.width * 0.4,
-          child: BookDetailRating(bookReview.rating)
-        ),
+        BookReviewRating(bookReview.rating),
         SizedBox(height: 10),
         Text(
           bookReview.text,
