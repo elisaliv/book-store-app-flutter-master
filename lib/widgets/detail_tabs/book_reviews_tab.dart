@@ -13,13 +13,17 @@ class BookReviewsTab extends StatelessWidget {
 
   List<Widget> _getReviewChildren(BuildContext context) {
     List<Widget> reviews = [];
-    for (int i = 0; i < book.reviews.length; i++) {
-      reviews.add(BookReviewItemWidget(book.reviews[i]));
-      if (i != book.reviews.length - 1) {
-        reviews.add(CustomDividerBookTab(verticalPadding: 16.0));
+    if (book.reviews == null) {
+      return reviews;
+    } else {
+      for (int i = 0; i < book.reviews.length; i++) {
+        reviews.add(BookReviewItemWidget(book.reviews[i]));
+        if (i != book.reviews.length - 1) {
+          reviews.add(CustomDividerBookTab(verticalPadding: 16.0));
+        }
       }
+      return reviews;
     }
-    return reviews;
   }
 
   @override
