@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 
 // Adapted from custom_divider.dart (there is surely a better way to implement
 // this "overload")
-class CustomDividerBookDetail extends StatelessWidget {
-  const CustomDividerBookDetail({
-    Key key,
-  }) : super(key: key);
+class CustomDividerBookTab extends StatelessWidget {
+  final verticalPadding;
+  CustomDividerBookTab({this.verticalPadding = 8.0});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      padding: EdgeInsets.symmetric(vertical: verticalPadding),
       child: Divider(),
     );
   }

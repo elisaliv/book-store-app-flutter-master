@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skeleton_app/models/book.dart';
-import 'package:skeleton_app/widgets/detail_tabs/custom_divider_book_detail.dart';
+import 'package:skeleton_app/widgets/detail_tabs/custom_divider_book_tab.dart';
 import 'package:skeleton_app/widgets/detail_tabs/book_detail_item.dart';
 
 class BookDetailTabWidget extends StatelessWidget {
@@ -28,15 +28,15 @@ class BookDetailTabWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             BookDetailItemWidget('Editore', book.publisher),
-            CustomDividerBookDetail(),
+            CustomDividerBookTab(),
             BookDetailItemWidget('Lingua', book.language),
-            CustomDividerBookDetail(),
+            CustomDividerBookTab(),
             BookDetailItemWidget('ISBN-10', book.isbn10),
-            CustomDividerBookDetail(),
+            CustomDividerBookTab(),
             BookDetailItemWidget('ISBN-13', book.isbn13),
-            CustomDividerBookDetail(),
+            CustomDividerBookTab(),
             BookDetailItemWidget('Peso articolo', book.weight.toString() + ' g'),
-            CustomDividerBookDetail(),
+            CustomDividerBookTab(),
             BookDetailItemWidget('Posizione nella classifica',
               'n. ' + book.position.toString() + ' in Libri più popolari'),
           ],

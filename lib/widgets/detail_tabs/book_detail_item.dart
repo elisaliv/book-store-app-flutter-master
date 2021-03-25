@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:skeleton_app/models/book.dart';
+
+// The children in book_detail_tag.dart could already be created here (importing
+// the book model here)
 
 class BookDetailItemWidget extends StatelessWidget {
   final title;

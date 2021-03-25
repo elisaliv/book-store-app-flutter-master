@@ -37,9 +37,9 @@ class BookService {
               BookReview(
                   title: "Un ottimo libro",
                   text:
-                      "Barack Obama é un gigante della nostra epoca, in questo libro si mette a nudo con onestà e ironia, ci fa leggere il percorso tortuoso, difficile e imprevedibile della sua storia, dall'infanzia senza un padre e piena di discriminazioni, al suo idealismo utopistico degli anni liceali fino all'inizio dell'avventura politica che molti anni dopo lo avrebbe portato al vertice con la presidenza.",
+                      "Una lucida analisi di quanto i sogni e la realtà, specialmente in politica difficilmente si realizzano, quanto il cinismo di chi si professa nazionalista sia invece nel proprio intimo legato solo ad interessi personali, che hanno il solo scopo di impedire il principio fondamentale della giustizia e dell'equità tra gli esseri umani. Il compromesso in politica spesso è la moneta richiesta da queste persone. Mitchell McConnell Jr. , alla luce di quanto scritto e quanto si vede quotidianamente risulta sempre di più un burattinaio spregevole e cinico.",
                   rating: 4,
-                  author: "Lorenzo R.",
+                  author: "Davide C..",
                   authorProfileImage:
                       "https://images.unsplash.com/photo-1611774119019-461b5dbd3ae8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1275&q=80"),
             ]),
@@ -70,9 +70,9 @@ class BookService {
               BookReview(
                   title: "Un ottimo libro",
                   text:
-                      "Barack Obama é un gigante della nostra epoca, in questo libro si mette a nudo con onestà e ironia, ci fa leggere il percorso tortuoso, difficile e imprevedibile della sua storia, dall'infanzia senza un padre e piena di discriminazioni, al suo idealismo utopistico degli anni liceali fino all'inizio dell'avventura politica che molti anni dopo lo avrebbe portato al vertice con la presidenza.",
+                      "Una lucida analisi di quanto i sogni e la realtà, specialmente in politica difficilmente si realizzano, quanto il cinismo di chi si professa nazionalista sia invece nel proprio intimo legato solo ad interessi personali, che hanno il solo scopo di impedire il principio fondamentale della giustizia e dell'equità tra gli esseri umani. Il compromesso in politica spesso è la moneta richiesta da queste persone. Mitchell McConnell Jr. , alla luce di quanto scritto e quanto si vede quotidianamente risulta sempre di più un burattinaio spregevole e cinico.",
                   rating: 4,
-                  author: "Lorenzo R.",
+                  author: "Davide C.",
                   authorProfileImage:
                       "https://images.unsplash.com/photo-1611774119019-461b5dbd3ae8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1275&q=80"),
             ]),
