@@ -3,6 +3,9 @@ import 'package:skeleton_app/models/book.dart';
 import 'package:skeleton_app/widgets/detail_tabs/book_review_item.dart';
 import 'package:skeleton_app/widgets/detail_tabs/custom_divider_book_tab.dart';
 
+// Tab 3: add all reviews, if there are any. Create review items and dividers
+// with a for loop, and add them to the tab
+
 class BookReviewsTab extends StatelessWidget {
   const BookReviewsTab({
     Key key,

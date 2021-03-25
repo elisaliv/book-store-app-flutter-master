@@ -3,6 +3,9 @@ import 'package:skeleton_app/models/book.dart';
 import 'package:skeleton_app/widgets/detail_tabs/custom_divider_book_tab.dart';
 import 'package:skeleton_app/widgets/detail_tabs/book_detail_item.dart';
 
+// Tab 2: add rounded container with padding, details (using the template) and
+// dividers
+
 class BookDetailTabWidget extends StatelessWidget {
   const BookDetailTabWidget({
     Key key,

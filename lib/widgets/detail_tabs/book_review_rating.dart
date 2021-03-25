@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:skeleton_app/themes/books_app_icons_icons.dart';
 
-// Adapted from book_detail_rating.dart
+// Tab 3: resized and re-aligned rating widget, adapted from book_detail_rating.dart
 
 class BookReviewRating extends StatelessWidget {
   final int rating;

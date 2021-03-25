@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-// Adapted from custom_divider.dart (there is surely a better way to implement
-// this "overload")
+// Tabs 2 and 3: custom divider with vertical padding only, adapted from 
+// custom_divider.dart
+
 class CustomDividerBookTab extends StatelessWidget {
   final verticalPadding;
   CustomDividerBookTab({this.verticalPadding = 8.0});

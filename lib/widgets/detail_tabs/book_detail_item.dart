@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 
-// The children in book_detail_tag.dart could already be created here (importing
-// the book model here)
+// Tab 2: template for children detail elements (to set the font style and spacing)
 
 class BookDetailItemWidget extends StatelessWidget {
-  final title;
+  final detail;
   final content;
 
-  BookDetailItemWidget(this.title, this.content);
+  BookDetailItemWidget(this.detail, this.content);
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(title + ':',
+        Text(detail + ':',
           style: Theme.of(context).textTheme.caption),
         SizedBox(height: 5),
         Text(content,

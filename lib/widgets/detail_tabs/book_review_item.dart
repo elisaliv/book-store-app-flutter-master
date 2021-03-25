@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:skeleton_app/models/book_review.dart';
 import 'package:skeleton_app/widgets/detail_tabs/book_review_rating.dart';
 
+// Tab 3: template for each review. Contains all elements specified in the
+// model with appropriate formatting and blank spaces between elements.
+
 class BookReviewItemWidget extends StatelessWidget {
   final BookReview bookReview;
 

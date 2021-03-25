@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:skeleton_app/models/book.dart';
 
+// Tab 1: add book description with appropriate margin
+
 class BookDescriptionTab extends StatelessWidget {
   const BookDescriptionTab({
     Key key,
@@ -11,8 +13,8 @@ class BookDescriptionTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(16.0),
+    return Container(
+      margin: EdgeInsets.all(16.0),
       child: Text(
         book.description,
         style: Theme.of(context).textTheme.bodyText2
